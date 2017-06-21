@@ -9,7 +9,11 @@
           p= theme.description
 
   ul.social-links
-    if theme.twitter
+    if theme.linkedin
+      li
+        a(href="https://linkedin.com/in/" + theme.linkedin)
+          i.fa.fa-linkedin
+    if theme.linkedin
       li
         a(href="https://twitter.com/" + theme.twitter)
           i.fa.fa-twitter
